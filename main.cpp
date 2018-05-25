@@ -10,12 +10,12 @@ int main(int argc, char *argv[]) {
     string fileOut = "";
 
     if (argc == 1) {
-        fileIn = "asm.txt";
-        fileOut = "program.txt";
+        fileIn = "program.asm";
+        fileOut = "program.je";
     }
     else if (argc == 2) {
         fileIn = argv[1];
-        fileOut = "program.txt";
+        fileOut = "program.je";
     }
     else if (argc == 3) {
         fileIn = argv[1];
